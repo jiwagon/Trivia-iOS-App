@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FCFAE132ACCE8C400CB21EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCFAE122ACCE8C400CB21EA /* ViewController.swift */; };
 		0FCFAE152ACCE8E400CB21EA /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCFAE142ACCE8E400CB21EA /* Questions.swift */; };
+		0FCFAE192ACCF62300CB21EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FCFAE182ACCF62300CB21EA /* Main.storyboard */; };
+		0FCFAE1B2ACCF8AD00CB21EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCFAE1A2ACCF8AD00CB21EA /* ViewController.swift */; };
 		9926AB2429DFAE1400860532 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9926AB2329DFAE1400860532 /* AppDelegate.swift */; };
 		9926AB2629DFAE1400860532 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9926AB2529DFAE1400860532 /* SceneDelegate.swift */; };
-		9926AB2B29DFAE1400860532 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9926AB2929DFAE1400860532 /* Main.storyboard */; };
 		9926AB2D29DFAE1400860532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9926AB2C29DFAE1400860532 /* Assets.xcassets */; };
 		9926AB3029DFAE1400860532 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9926AB2E29DFAE1400860532 /* LaunchScreen.storyboard */; };
 		9926AB3B29DFAE1500860532 /* TriviaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9926AB3A29DFAE1500860532 /* TriviaTests.swift */; };
@@ -37,12 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0FCFAE122ACCE8C400CB21EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0FCFAE142ACCE8E400CB21EA /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		0FCFAE182ACCF62300CB21EA /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0FCFAE1A2ACCF8AD00CB21EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9926AB2029DFAE1400860532 /* Trivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9926AB2329DFAE1400860532 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9926AB2529DFAE1400860532 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9926AB2A29DFAE1400860532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9926AB2C29DFAE1400860532 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9926AB2F29DFAE1400860532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9926AB3129DFAE1400860532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -103,12 +103,12 @@
 			children = (
 				9926AB2329DFAE1400860532 /* AppDelegate.swift */,
 				9926AB2529DFAE1400860532 /* SceneDelegate.swift */,
-				9926AB2929DFAE1400860532 /* Main.storyboard */,
+				0FCFAE182ACCF62300CB21EA /* Main.storyboard */,
 				9926AB2C29DFAE1400860532 /* Assets.xcassets */,
 				9926AB2E29DFAE1400860532 /* LaunchScreen.storyboard */,
 				9926AB3129DFAE1400860532 /* Info.plist */,
-				0FCFAE122ACCE8C400CB21EA /* ViewController.swift */,
 				0FCFAE142ACCE8E400CB21EA /* Questions.swift */,
+				0FCFAE1A2ACCF8AD00CB21EA /* ViewController.swift */,
 			);
 			path = Trivia;
 			sourceTree = "<group>";
@@ -194,7 +194,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					9926AB1F29DFAE1400860532 = {
 						CreatedOnToolsVersion = 14.2;
@@ -236,7 +236,7 @@
 			files = (
 				9926AB3029DFAE1400860532 /* LaunchScreen.storyboard in Resources */,
 				9926AB2D29DFAE1400860532 /* Assets.xcassets in Resources */,
-				9926AB2B29DFAE1400860532 /* Main.storyboard in Resources */,
+				0FCFAE192ACCF62300CB21EA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,9 +261,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FCFAE132ACCE8C400CB21EA /* ViewController.swift in Sources */,
 				0FCFAE152ACCE8E400CB21EA /* Questions.swift in Sources */,
 				9926AB2429DFAE1400860532 /* AppDelegate.swift in Sources */,
+				0FCFAE1B2ACCF8AD00CB21EA /* ViewController.swift in Sources */,
 				9926AB2629DFAE1400860532 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,14 +301,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9926AB2929DFAE1400860532 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9926AB2A29DFAE1400860532 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9926AB2E29DFAE1400860532 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -356,6 +348,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -416,6 +409,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
