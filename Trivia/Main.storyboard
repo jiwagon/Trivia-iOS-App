@@ -18,65 +18,56 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question: 1/3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BaX-Jh-5PE">
-                                <rect key="frame" x="80.333333333333329" y="79" width="232.66666666666669" height="45.666666666666657"/>
+                                <rect key="frame" x="69" y="79" width="255" height="45.666666666666657"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="38"/>
                                 <color key="textColor" systemColor="systemBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Entertainment: Music" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xIW-HN-Bsa">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Entertainment: Music" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xIW-HN-Bsa">
                                 <rect key="frame" x="69" y="133" width="255" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="MlO-on-sTn">
-                                <rect key="frame" x="40" y="190" width="313" height="222"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" text="Who are the three members of the band, Boygenius? " textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0P4-0R-HxZ">
-                                <rect key="frame" x="76" y="247" width="240" height="108"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="1gC-XB-bgr">
+                                <rect key="frame" x="40" y="432" width="313" height="65"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="S59-Am-8iY">
+                                <rect key="frame" x="40" y="505" width="313" height="65"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Fs4-8I-txM">
+                                <rect key="frame" x="40" y="578" width="313" height="65"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="btH-Cd-TL2">
+                                <rect key="frame" x="40" y="651" width="313" height="65"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </stackView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="Who are the three members of the band, Boygenius? " textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0P4-0R-HxZ">
+                                <rect key="frame" x="38" y="211" width="317" height="169"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="1gC-XB-bgr">
-                                <rect key="frame" x="40" y="432" width="313" height="65"/>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="S59-Am-8iY">
-                                <rect key="frame" x="40" y="505" width="313" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Fs4-8I-txM">
-                                <rect key="frame" x="40" y="578" width="313" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="btH-Cd-TL2">
-                                <rect key="frame" x="40" y="651" width="313" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemCyanColor"/>
                         <constraints>
+                            <constraint firstItem="1gC-XB-bgr" firstAttribute="top" secondItem="0P4-0R-HxZ" secondAttribute="bottom" constant="77" id="0xY-AN-A1R"/>
                             <constraint firstItem="1gC-XB-bgr" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="7L6-cQ-ZzY"/>
-                            <constraint firstItem="0P4-0R-HxZ" firstAttribute="centerX" secondItem="MlO-on-sTn" secondAttribute="centerX" id="8K3-uD-fIJ"/>
-                            <constraint firstItem="0P4-0R-HxZ" firstAttribute="centerY" secondItem="MlO-on-sTn" secondAttribute="centerY" id="90R-hy-rrv"/>
                             <constraint firstItem="1gC-XB-bgr" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="9wk-vA-F6P"/>
-                            <constraint firstItem="MlO-on-sTn" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="F2N-jM-dQ2"/>
+                            <constraint firstItem="xIW-HN-Bsa" firstAttribute="leading" secondItem="BaX-Jh-5PE" secondAttribute="leading" id="LdQ-Fn-B8x"/>
                             <constraint firstItem="BaX-Jh-5PE" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="RX3-WR-fhI"/>
-                            <constraint firstItem="MlO-on-sTn" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="i4Q-bf-vwb"/>
-                            <constraint firstItem="0P4-0R-HxZ" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="i7X-EY-lKX"/>
-                            <constraint firstItem="0P4-0R-HxZ" firstAttribute="centerX" secondItem="MlO-on-sTn" secondAttribute="centerX" id="qbY-pj-2OJ"/>
+                            <constraint firstItem="xIW-HN-Bsa" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="fzL-NU-1K0"/>
+                            <constraint firstItem="0P4-0R-HxZ" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="76" id="if4-vN-jeU"/>
+                            <constraint firstItem="btH-Cd-TL2" firstAttribute="top" secondItem="Fs4-8I-txM" secondAttribute="bottom" constant="8" symbolic="YES" id="ou2-Ge-gIb"/>
+                            <constraint firstItem="S59-Am-8iY" firstAttribute="top" secondItem="1gC-XB-bgr" secondAttribute="bottom" constant="8" symbolic="YES" id="pH8-7x-RfE"/>
+                            <constraint firstItem="Fs4-8I-txM" firstAttribute="top" secondItem="S59-Am-8iY" secondAttribute="bottom" constant="8" symbolic="YES" id="ujV-c0-xJ0"/>
                             <constraint firstItem="BaX-Jh-5PE" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="yHa-KJ-oZj"/>
+                            <constraint firstAttribute="trailing" secondItem="0P4-0R-HxZ" secondAttribute="trailing" constant="76" id="zZx-Pe-04E"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -93,7 +84,7 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemCyanColor">
-            <color red="0.1960784314" green="0.67843137249999996" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.19607843137254902" green="0.67843137254901964" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
